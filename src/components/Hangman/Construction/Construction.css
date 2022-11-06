@@ -1,0 +1,33 @@
+.construction {
+  position: relative;
+  width: fit-content;
+  margin-bottom: 20px;
+}
+
+.base {
+  height: 10px;
+  width: 80px;
+  background-color: black;
+}
+
+.pole {
+  width: 10px;
+  background-color: black;
+  height: 200px;
+  margin-left: 35px;
+}
+
+.top {
+  height: 10px;
+  background-color: black;
+  margin-left: 35px;
+  width: 100px;
+}
+
+.rope {
+  width: 5px;
+  height: 40px;
+  background-color: brown;
+  position: absolute;
+  right: 1px;
+}

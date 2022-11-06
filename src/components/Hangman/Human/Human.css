@@ -1,0 +1,82 @@
+.human {
+  position: absolute;
+  top: 45px;
+  right: -15px;
+}
+
+.head {
+  height: 30px;
+  width: 30px;
+  border: 5px solid black;
+  border-radius: 50%;
+}
+
+.body {
+  width: 5px;
+  height: 60px;
+  background-color: black;
+  right: 40px;
+  position: relative;
+  right: -18px;
+}
+
+.arms,
+.legs {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+/* ARMS */
+.arms {
+  top: -60px;
+}
+
+.arm {
+  width: 5px;
+  height: 30px;
+  background-color: black;
+}
+
+.left-arm,
+.right-arm {
+  width: 5px;
+  height: 30px;
+  background-color: black;
+}
+
+.left-arm {
+  transform: rotate(45deg);
+  position: relative;
+  left: -8px;
+}
+
+.right-arm {
+  transform: rotate(-45deg);
+  position: relative;
+  right: -8px;
+}
+
+/* LEGS */
+.legs {
+  top: -40px;
+}
+
+.left-leg,
+.right-leg {
+  width: 5px;
+  height: 50px;
+  background-color: black;
+}
+
+.left-leg {
+  transform: rotate(-30deg);
+  position: relative;
+  right: -15px;
+}
+
+.right-leg {
+  transform: rotate(30deg);
+  position: relative;
+  right: 15px;
+}
